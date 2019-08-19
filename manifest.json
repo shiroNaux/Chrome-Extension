@@ -1,0 +1,22 @@
+{
+
+    "manifest_version": 2,
+    "name": "My Extension",
+    "version": "1.0",
+
+
+    "description": "A simple Extension in chrome",
+    "icons": {
+        "16": "images/tomato16.png",
+        "32": "images/tomato32.png",
+        "128":"images/tomato128.png"
+        
+    },
+    "browser_action": {
+        "default_icon": "images/tomato24.png",
+        "default_popup": "html/popup.html"
+    },
+
+    "author": "shiro"
+    
+}
